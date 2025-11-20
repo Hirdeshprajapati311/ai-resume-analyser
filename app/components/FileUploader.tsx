@@ -14,7 +14,7 @@ const FileUploader = ({onFileSelect}:FileUploaderProps) => {
   }, [onFileSelect])
   const maxFileSize = 20 * 1024 * 1024; 
   
-  const { getRootProps, getInputProps, isDragActive, acceptedFiles } = useDropzone({ onDrop, multiple: false, accept: { 'application/pdf': [".pdf"] },maxFiles:maxFileSize });
+  const { getRootProps, getInputProps, acceptedFiles } = useDropzone({ onDrop, multiple: false, accept: { 'application/pdf': [".pdf"] },maxFiles:maxFileSize });
   
   const file = acceptedFiles[0] || null;
   

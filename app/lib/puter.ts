@@ -354,6 +354,9 @@ export const usePuterStore = create<PuterStore>((set, get) => {
         ) as Promise<AIResponse | undefined>;
     };
 
+    // claude-3-7-sonnet
+    //deepseek-reasoner
+
     const img2txt = async (image: string | File | Blob, testMode?: boolean) => {
         const puter = getPuter();
         if (!puter) {
