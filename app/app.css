@@ -51,10 +51,10 @@ form {
 
 @layer components {
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#AB8C95] via-[#000000] to-[#8E97C5];
+    @apply bg-clip-text text-transparent bg-linear-to-r from-[#AB8C95] via-[#000000] to-[#8E97C5];
   }
   .gradient-border {
-    @apply bg-gradient-to-b from-light-blue-100 to-light-blue-200 p-4 rounded-2xl;
+    @apply bg-linear-to-b from-light-blue-100 to-light-blue-200 p-4 rounded-2xl;
   }
   .primary-button {
     @apply primary-gradient text-white rounded-full px-4 py-2 cursor-pointer w-full;
@@ -97,8 +97,10 @@ form {
   }
 
   .navbar {
-    @apply flex flex-row justify-between items-center bg-white rounded-full p-4 w-full px-10 max-w-[1200px] mx-auto;
-  }
+  @apply flex flex-row justify-between items-center bg-white rounded-full 
+         p-4 w-full max-w-[1200px] mx-auto 
+         px-4 sm:px-6 md:px-10 gap-4;
+}
 
   .score-badge {
     @apply flex flex-row items-center justify-center py-1 px-2 gap-4 rounded-[96px];

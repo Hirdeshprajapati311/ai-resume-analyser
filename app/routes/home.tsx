@@ -1,12 +1,11 @@
 import Navbar from "~/components/Navbar";
-import type { Route } from "./+types/home";
 import { resumes } from "../../constants";
 import ResumeCard from "~/components/ResumeCard";
 import { usePuterStore } from "~/lib/puter";
 import { useNavigate } from "react-router";
 import { useEffect } from "react";
 
-export function meta({}: Route.MetaArgs) {
+export function meta({}: {}) {
   return [
     { title: "Resunox" },
     { name: "description", content: "Smart feedback for your dream job!" },
