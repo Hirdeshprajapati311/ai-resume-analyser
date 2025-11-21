@@ -1,40 +1,51 @@
-🧠 Resume Analyzer (Puter.js + AI)
+# 🧠 Resume Analyzer
 
-A smart resume-analysis tool built using Puter's KV store, filesystem, authentication, and AI APIs.
-You enter:
+A smart, AI-powered resume analyzer built with **React**, **React Router v7**, **Zustand**, and **Puter’s** KV, FS, Auth, and AI APIs.  
+It compares your resume with any job description, highlights missing keywords/skills, and provides clear, actionable suggestions to boost your chances of getting shortlisted.
 
-Job Title
+---
 
-Company Name
+## 🚀 Features
+- **AI-Driven Resume Analysis** – Measures how well your resume aligns with the job description.  
+- **Keyword & Skill Gap Detection** – Instantly see what you're missing.  
+- **Actionable Suggestions** – Improve your resume with precise recommendations.  
+- **Secure Data Handling** – Powered by Puter’s KV + FS.  
+- **Smooth Navigation** – Built using React Router v7.  
+- **Global State Management** – Clean and efficient with Zustand.
 
-Job Description
+---
 
-Your Resume
+## 🛠️ Tech Stack
+- **React**
+- **React Router v7**
+- **Zustand**
+- **Puter.js** (KV, FS, Auth, AI)
+- **JavaScript**
 
-…and the tool generates a detailed, AI-powered evaluation of how well your resume matches the role. It highlights missing skills, keywords you should add, weaknesses to fix, and gives clear steps to improve your chances of getting shortlisted.
+---
 
-🔍 Features
+## 📸 Screenshots
+(Add your screenshots below)
 
-AI-Powered Matching: Analyzes your resume against any job description.
+### Screenshot 1  
+<img width="959" height="867" alt="image" src="https://github.com/user-attachments/assets/01c76464-cf5a-4930-8c40-a1cae00633c6" />
 
-Keyword Gap Detection: Shows skills or phrases missing from your resume.
+### Screenshot 2  
+<img width="1818" height="880" alt="image" src="https://github.com/user-attachments/assets/892e1749-3358-42ed-ad1a-2ded56834f24" />
 
-Improvement Suggestions: Actionable steps to optimize your resume.
 
-Secure Storage: Uses Puter KV + FS for safe handling of user data.
+### Screenshot 3  
+![Uploading image.png…]()
 
-Simple & Fast: Clean UI and quick analysis using Puter AI APIs.
 
-🚀 Tech Stack
+---
 
-React
+## 💡 Why I Built This
+Applying to jobs is already stressful—this tool removes guesswork by telling you exactly how to tailor your resume for any role.
 
-Puter.js (Auth, KV, FS, AI)
+---
 
-Tailwind (optional)
-
-JavaScript
-
-💡 Why I Built This
-
-Applying to jobs is already stressful. This tool cuts the guesswork by telling you exactly what your resume needs for a specific role—instantly.
+## 📦 Setup & Installation
+```bash
+npm install
+npm run dev
