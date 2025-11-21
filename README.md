@@ -1,87 +1,40 @@
-# Welcome to React Router!
+🧠 Resume Analyzer (Puter.js + AI)
 
-A modern, production-ready template for building full-stack React applications using React Router.
+A smart resume-analysis tool built using Puter's KV store, filesystem, authentication, and AI APIs.
+You enter:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+Job Title
 
-## Features
+Company Name
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+Job Description
 
-## Getting Started
+Your Resume
 
-### Installation
+…and the tool generates a detailed, AI-powered evaluation of how well your resume matches the role. It highlights missing skills, keywords you should add, weaknesses to fix, and gives clear steps to improve your chances of getting shortlisted.
 
-Install the dependencies:
+🔍 Features
 
-```bash
-npm install
-```
+AI-Powered Matching: Analyzes your resume against any job description.
 
-### Development
+Keyword Gap Detection: Shows skills or phrases missing from your resume.
 
-Start the development server with HMR:
+Improvement Suggestions: Actionable steps to optimize your resume.
 
-```bash
-npm run dev
-```
+Secure Storage: Uses Puter KV + FS for safe handling of user data.
 
-Your application will be available at `http://localhost:5173`.
+Simple & Fast: Clean UI and quick analysis using Puter AI APIs.
 
-## Building for Production
+🚀 Tech Stack
 
-Create a production build:
+React
 
-```bash
-npm run build
-```
+Puter.js (Auth, KV, FS, AI)
 
-## Deployment
+Tailwind (optional)
 
-### Docker Deployment
+JavaScript
 
-To build and run using Docker:
+💡 Why I Built This
 
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+Applying to jobs is already stressful. This tool cuts the guesswork by telling you exactly what your resume needs for a specific role—instantly.
