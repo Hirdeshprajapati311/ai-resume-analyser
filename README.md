@@ -2,6 +2,7 @@
 
 A smart, AI-powered resume analyzer built with **React**, **React Router v7**, **Zustand**, and **Puter’s** KV, FS, Auth, and AI APIs.  
 It compares your resume with any job description, highlights missing keywords/skills, and provides clear, actionable suggestions to boost your chances of getting shortlisted.
+<img width="1472" height="704" alt="Gemini_Generated_Image_4hfnz14hfnz14hfn" src="https://github.com/user-attachments/assets/d329e675-313c-48c9-a9c2-971b815b780d" />
 
 ---
 
